@@ -53,9 +53,9 @@ else {
         workerid: workerId /* more options placeholder*/
     }, function(app) {
         var config = app.config.clean;
-        var port = config.https && config.https.port ? config.https.port : config.http.port;
-        //var port = process.env.PORT || 3000;
-        console.log('Osender app started on port ' + port + ' (' + process.env.NODE_ENV + ') cluster.worker.id:', workerId);
+        //var port = config.https && config.https.port ? config.https.port : config.http.port;
+        var port = process.env.PORT || 3000;
+        console.log("The Refugee's Guide app started on port " + port + ' (' + process.env.NODE_ENV + ') cluster.worker.id:', workerId);
 
         deferred.resolve(app);
     });

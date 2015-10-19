@@ -1,6 +1,6 @@
 {
-  "name": "Osender",
-  "description": "Osender: Next generation logistics.",
+  "name": "therefugeeguide",
+  "description": "A crowd-sourced road guide providing support for migrants",
   "main": "server.js",
   "version": "0.0.1",
   "engines": {
@@ -8,7 +8,7 @@
   },
   "private": false,
   "author": "Majid Mallis <mmallis87@gmail.com>",
-  "contributors": "https://github.com/mmallis87/osender/contributors",
+  "contributors": "https://github.com/mmallis87/therefugeeguide/contributors",
   "mean": "0.5.5",
   "repository": {
     "type": "git",
@@ -51,6 +51,7 @@
     "passport-linkedin": "latest",
     "passport-local": "latest",
     "passport-twitter": "latest",
+    "pubnub": "latest",
     "q": "latest",
     "request": "latest",
     "serve-favicon": "latest",

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Base system package",
   "author": {
-    "name": "GDM Technologies Inc."
+    "name": "The Refugee Guide"
   },
   "mean": "0.4.x",
   "engines": {
